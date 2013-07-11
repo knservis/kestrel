@@ -29,7 +29,7 @@ object Kestrel extends Build {
       "com.twitter" % "finagle-ostrich4" % finagleVersion,
       "com.twitter" % "finagle-thrift" % finagleVersion, // override scrooge's version
       "com.twitter" %% "scrooge-runtime" % "3.0.1",
-      "com.twitter.common.zookeeper" % "server-set" % "1.0.16",
+      "com.twitter.common.zookeeper" % "server-set" % "1.0.44",
 
       // for tests only:
       "org.scala-tools.testing" %% "specs" % "1.6.9" % "test",
